@@ -142,11 +142,9 @@ you.
 
 The command to create an index is as follows. You DO NOT need to run
 this command yourself - we have done this for you.
-
-```shell
-bowtie2-build genome/Danio_rerio.Zv9.66.dna.fa genome/ZV9
+```diff
+ - bowtie2-build genome/Danio_rerio.Zv9.66.dna.fa genome/ZV9
 ```
-
 Tophat2 has a number of parameters in order to perform the alignment. To
 view them all type:
 
